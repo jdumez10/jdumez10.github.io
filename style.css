@@ -330,11 +330,11 @@ header.sticky {
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
-
+/*
 .portfolio .row .row-icon .icons .ri-github-fill {
     color: var(--main-color);
   }
-
+*/
 .social i.fa-github {
     background-color: var(--main-color);
 }
