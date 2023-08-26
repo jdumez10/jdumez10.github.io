@@ -325,7 +325,7 @@ header.sticky {
 
 .Portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
@@ -655,14 +655,7 @@ form .send-btn {
     background-size: cover;
     padding: 110px 16% 90px;
 }
-/*
-.experience_content {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  */
   
-
   .experience_content {
     display: flex;
     padding-left: 35px;
@@ -710,30 +703,6 @@ form .send-btn {
     margin-bottom: 30px; 
   }
 
-  /*
-  .experience_time {
-    width: 16px;
-    height: 16px;
-    background-color: var(--text-color-alt);
-    border-radius: 50%;
-    margin-right: 0.5rem;
-  }
-
-  .experience_rounder {
-    width: 6px;
-    height: 6px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    margin-bottom: 5px;
-  }
-  
-  .experience_line {
-    width: 2.5px;
-    height: 180px;
-    background-color: var(--text-color-alt);
-    transform: translate(7px, 0);
-  }
-*/
   .experience_content:first-child {
     margin-top: 30px; 
   }
