@@ -633,6 +633,10 @@ form .send-btn {
     object-fit: cover;
     margin: 0 auto;
 }
+.contact-form {
+    width: 100%; 
+    padding: 20px;
+}
 }
 
 .skills {
