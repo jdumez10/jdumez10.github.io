@@ -617,6 +617,10 @@ form .send-btn {
     .main-content p{
         width: 100%;
     }
+    .contact-form {
+        width: 100%; 
+        padding: 20px;
+    }
 }
 
 @media (max-width: 470px){
