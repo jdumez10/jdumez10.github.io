@@ -195,22 +195,22 @@ header.sticky {
 
 .about {
     background: url(./img/background.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: center; /* Align items vertically */
+    justify-items: center; /* Align items horizontally */
     gap: 1rem;
     padding: 110px 16% 90px;
-  }
-  
+}
+
 .about-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-row: 1 / span 2; /* Make the image span 2 rows */
-  }
-  
+}
+
 .about-img img {
     width: 100%;
     height: auto;
@@ -219,12 +219,28 @@ header.sticky {
     object-fit: cover;
     border: 7px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
-  }
-  
-.about-text h2{
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the text */
+    align-items: flex-start; /* Align text to the left */
+    text-align: left; /* Ensure proper text alignment */
+    gap: 1rem; /* Add space between paragraphs */
+}
+
+.about-text h2 {
     font-size: var(--h2-font);
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 20px;
+}
+
+.about-text p {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .exp-area{
